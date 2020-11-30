@@ -13,7 +13,25 @@ module.exports = {
     type: 'blog',
     author: 'Peanut',
     authorAvatar: '/logo.png',
+    sidebar: {
+      '/123/': [
+        {
+          title: '测试',
+          collapsable: true,
+          children: [
+            'test',
+            'test1'
+          ]
+        }
+      ]
+    },
     subSidebar: 'auto',
+    nav: [
+      { text: 'Home', link: '/', icon: 'reco-home' },
+      { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' },
+      { text: 'Guide', link: '/123/test' },
+      { text: 'External', link: 'https://google.com' },
+    ],
     blogConfig: {
       category: {
         location: 2,     // 在导航栏菜单中所占的位置，默认2
