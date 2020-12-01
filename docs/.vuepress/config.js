@@ -2,6 +2,7 @@ module.exports = {
   theme: 'reco',
   title: 'hello Vuepress',
   description: 'my blog',
+  base: '/blog/',
   head: [
     ['meta', {
       name: 'viewport',
@@ -27,10 +28,8 @@ module.exports = {
     },
     subSidebar: 'auto',
     nav: [
-      { text: 'Home', link: '/', icon: 'reco-home' },
-      { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' },
-      { text: 'Guide', link: '/123/test' },
-      { text: 'External', link: 'https://google.com' },
+      { text: '主页', link: '/', icon: 'reco-home' },
+      { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' }
     ],
     blogConfig: {
       category: {
