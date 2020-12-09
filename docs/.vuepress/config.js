@@ -1,6 +1,6 @@
 module.exports = {
   theme: 'reco',
-  title: 'hello Vuepress',
+  title: '',
   description: 'my blog',
   base: '/blog/',
   head: [
