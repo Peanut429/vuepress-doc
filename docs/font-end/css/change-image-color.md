@@ -55,7 +55,7 @@ background-blend-mode: luminosity;      /* 亮度 */
 
 在看张鑫旭的文章中还发现了另一种修改图片颜色的方式，使用css的mask( 缺点是兼容性不是太理想，暂时只支持webkit前缀 )。要求是图片为png类型，图标的颜色可以任意，图标的其他区域为透明色。
 下面是我从iconfont上下载的一个图标，因为原图是白色图案这里就直接展示结果了：
-<div style="width: 100px;height: 100px;background-color: red;-webkit-mask-image: url(/blog/example.png);mask-size: cover;"></div>
+<div style="width: 100px;height: 100px;background-color: red;-webkit-mask-image: url(/blog/example.png);-webkit-mask-size: cover;"></div>
 代码如下：
 
 ``` html
@@ -65,7 +65,7 @@ background-blend-mode: luminosity;      /* 亮度 */
   height: 100px;
   background-color: red;
   -webkit-mask-image: url(/blog/example.png);
-  mask-size: cover;
+  -webkit-mask-size: cover;
 }
 </style>
 <div class="image"></div>
