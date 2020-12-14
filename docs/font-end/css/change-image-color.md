@@ -13,11 +13,11 @@ tags:
 
 原图：
 
-<img src="https://user-images.githubusercontent.com/8554143/34239266-232bdfc0-e641-11e7-8792-408782aaa78e.png" style="width: 100px;height: 100px;">
+<img src="https://dss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3374138518,1419982302&fm=115&gp=0.jpg" style="width: 100px;height: 100px;">
 
 修改后：
 
-<div style="width: 100px;height:100px;background-image: url(https://user-images.githubusercontent.com/8554143/34239266-232bdfc0-e641-11e7-8792-408782aaa78e.png), linear-gradient(deeppink, deeppink);background-blend-mode:lighten;background-size: cover;"></div>
+<div style="width: 100px;height:100px;background-image: url(https://dss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3374138518,1419982302&fm=115&gp=0.jpg), linear-gradient(deeppink, deeppink);background-blend-mode:lighten;background-size: cover;"></div>
 
 代码如下：
 
@@ -26,7 +26,7 @@ tags:
 .image {
   width: 100px;
   height:100px;
-  background-image: url(https://user-images.githubusercontent.com/8554143/34239266-232bdfc0-e641-11e7-8792-408782aaa78e.png), linear-gradient(deeppink, deeppink);background-blend-mode:lighten;
+  background-image: url(https://dss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3374138518,1419982302&fm=115&gp=0.jpg), linear-gradient(deeppink, deeppink);background-blend-mode:lighten;
   background-size: cover;
 }
 </style>
