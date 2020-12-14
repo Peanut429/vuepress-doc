@@ -2,7 +2,7 @@ module.exports = {
   theme: 'reco',
   title: '',
   description: 'my blog',
-  base: '/blog/',
+  base: '/',
   head: [
     ['meta', {
       name: 'viewport',
